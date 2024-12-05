@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <include name="Regg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.testngsample.GroupsTestingSample1">
+        <methods>
+          <include name="tc8"/>
+        </methods>
+      </class> <!-- org.testngsample.GroupsTestingSample1 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
